@@ -24,10 +24,10 @@ window.addEventListener('keydown', handleKeyDown);
 
 1. event listener na window który odpala funkcje handleKeyDown;
 2. funkcja handleKeyDown() 
-        - ma zmienną audio dopasowuje sciezke dzwiekowa do kliknietego klawisza
-        - jesli nie ma audio stopuje dzialanie
-        - dodaje klase playing do klaiwsza
-3. do kazdego klawisza event listener ktory nasluchuje konca transition i odpala funkcje removeTransition();
+        - ma zmienną audio dopasowuje sciezkę dzwiękową do klikniętego klawisza
+        - jeśli nie ma audio stopuje dzialanie
+        - dodaje klasę playing do klawisza
+3. do każdego klawisza event listener który nasłuchuje końca transition i odpala funkcje removeTransition();
 4. removeTransition() 
-        - nie uruchamia sie jesli tranzycja nie dotyczy wlasciwosci 'transform'
-        - usuwa klase 'playing' z klikniętego klawisza */
+        - nie uruchamia się jeśli tranzycja nie dotyczy właściwości 'transform'
+        - usuwa klasę 'playing' z klikniętego klawisza */
