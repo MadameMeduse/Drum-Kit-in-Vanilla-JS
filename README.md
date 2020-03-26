@@ -1,6 +1,6 @@
 # DrumKit in Vanilla JS
 
-[Click here too play]("https://madamemeduse.github.io/Drum-Kit-in-Vanilla-JS/")
+[Click here too play](<a href ="https://madamemeduse.github.io/Drum-Kit-in-Vanilla-JS/"></a>)
 
 
 
