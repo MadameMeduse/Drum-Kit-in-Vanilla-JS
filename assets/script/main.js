@@ -19,15 +19,3 @@ function removeTransition(e) {
 	e.currentTarget.classList.remove('playing');
 }
 window.addEventListener('keydown', handleKeyDown);
-
-/* Logic
-
-1. event listener na window który odpala funkcje handleKeyDown;
-2. funkcja handleKeyDown() 
-        - ma zmienną audio dopasowuje sciezkę dzwiękową do klikniętego klawisza
-        - jeśli nie ma audio stopuje dzialanie
-        - dodaje klasę playing do klawisza
-3. do każdego klawisza event listener który nasłuchuje końca transition i odpala funkcje removeTransition();
-4. removeTransition() 
-        - nie uruchamia się jeśli tranzycja nie dotyczy właściwości 'transform'
-        - usuwa klasę 'playing' z klikniętego klawisza */
